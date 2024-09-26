@@ -44,6 +44,8 @@ const styles = StyleSheet.create({
  3. Dosya İsimlendirme:
 	 - Kebab-case kullanın (örn. login-button.tsx, user-profile.tsx)
 
+File Structure'da kullanılacak simgeler `├──`, `└──`
+
 ```
 my-expo-project/
 ├── app/
@@ -61,25 +63,25 @@ my-expo-project/
 |   ├── auth/
 |   |   ├── login/
 |   |   |   ├── components/
-|   |   |   |   ├── name.tsx
+|   |   |   |   └── name.tsx
 |   |   |   ├── containers/
-|   |   |   |   ├── name.tsx
+|   |   |   |   └── name.tsx
 |   |   |   ├── hooks/
-|   |   |   |   ├── name.ts
+|   |   |   |   └── name.ts
 |   |   |   ├── containers/
-|   |   |   |   ├── name.tsx
-|   |   |   ├── index.tsx
+|   |   |   |   └── name.tsx
+|   |   |   └── index.tsx
 |   ├── app/
 |   |   ├── home/
 |   |   |   ├── components/
-|   |   |   |   ├── name.tsx
+|   |   |   |   └── name.tsx
 |   |   |   ├── containers/
-|   |   |   |   ├── name.tsx
+|   |   |   |   └── name.tsx
 |   |   |   ├── hooks/
-|   |   |   |   ├── name.ts
+|   |   |   |   └── name.ts
 |   |   |   ├── containers/
-|   |   |   |   ├── name.tsx
-|   |   |   ├── index.tsx
+|   |   |   |   └── name.tsx
+|   |   |   └── index.tsx
 ├── components/
 │   ├── ui/
 │   │   ├── button.tsx
